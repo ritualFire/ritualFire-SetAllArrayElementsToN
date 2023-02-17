@@ -24,5 +24,12 @@ public class Lab {
      */
     public void set(int[] arr, int n){
 
+        int arrayLength = arr.length;
+
+        for(int i = 0;i<arrayLength;i++)
+        {
+            arr[i]=n;
+        }
+
     }
 }
